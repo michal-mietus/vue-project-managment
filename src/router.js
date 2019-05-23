@@ -30,10 +30,20 @@ let router = new Router({
       path: '/projects',
       name: 'projects',
       component: () => import('./views/projects/ProjectsView.vue'),
+      /* <==== check out authentication
       meta: { 
         requiresAuth: true
-      },
-    }
+      },*/
+    },
+    {
+      path: '/project/details',
+      name: 'projectDetails',
+      component: () => import('./views/projects/ProjectDetailView.vue'),
+      /* <==== check out authentication
+      meta: { 
+        requiresAuth: true
+      },*/
+    },
   ],
 });
 
