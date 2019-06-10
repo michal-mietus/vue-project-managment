@@ -1,4 +1,4 @@
-# vue_amadventure
+# Vue project managment
 
 ## Project setup
 ```
